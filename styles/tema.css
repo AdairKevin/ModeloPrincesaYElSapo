@@ -1,0 +1,148 @@
+/* =========================================================
+   TEMA LA PRINCESA Y EL SAPO: Nueva Orleans, bayou,
+   verde esmeralda, dorado art déco y luciérnagas
+   ========================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Poiret+One&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap");
+
+:root {
+  --t-primario: #3f7a4a;
+  --t-acento: #d9b44a;
+  --t-texto: #2f4a35;
+  --t-card: #f3f7ec;
+  --t-borde: rgba(217, 180, 74, 0.7);
+  --t-boton: linear-gradient(135deg, #5c9b5f, #2f5d3a);
+  --t-boton-texto: #fdf6dc;
+  --t-brillo: rgba(240, 230, 120, 0.45);
+  --t-font-script: "Parisienne", cursive;
+  --t-font-titulo: "Poiret One", sans-serif;
+  --t-font-texto: "Cormorant Garamond", serif;
+  --t-icono-dia: "✦";
+}
+
+/* Luciérnagas del bayou */
+.luciernaga {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff9a8;
+  box-shadow:
+    0 0 8px 3px rgba(255, 240, 120, 0.9),
+    0 0 22px 8px rgba(200, 230, 90, 0.4);
+}
+
+/* El sapo da saltitos */
+.sociedad img {
+  animation: saltar 2.6s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+@keyframes saltar {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0) scale(1, 1);
+  }
+  65% {
+    transform: translateY(0) scale(1.1, 0.9);
+  }
+  75% {
+    transform: translateY(-22px) scale(0.95, 1.05);
+  }
+  85% {
+    transform: translateY(0) scale(1.05, 0.95);
+  }
+}
+
+/* Tiana se mece como en el baile */
+.rapunzel {
+  animation: vals 6s ease-in-out infinite;
+}
+@keyframes vals {
+  0%,
+  100% {
+    transform: rotate(-3deg) translateY(0);
+  }
+  50% {
+    transform: rotate(3deg) translateY(-8px);
+  }
+}
+
+/* Títulos art déco del Baile Real */
+.sociedad h1,
+.frase-l h1,
+.sub {
+  font-family: var(--t-font-titulo);
+  letter-spacing: 3px;
+}
+.timer-titulo,
+.section-message b {
+  font-family: var(--t-font-script);
+  font-size: 2.4rem;
+  color: var(--t-primario);
+}
+
+/* Contador como hojas de nenúfar */
+.date-time li {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: auto;
+  border: 2px solid var(--t-acento);
+  background: radial-gradient(circle at 30% 30%, #e7f2d8, #c6ddb0);
+  box-shadow: 0 6px 18px rgba(47, 93, 58, 0.25);
+}
+.date-time li::before {
+  content: "❀";
+  color: #e58fb0;
+  font-size: 0.8rem;
+}
+.date-time .time_number {
+  color: var(--t-primario);
+  font-size: 1.3rem;
+}
+
+/* Marcos art déco en las tarjetas */
+.box-place,
+.box-place-salon,
+.calendario-card,
+.box-message {
+  border: 1px solid var(--t-acento);
+  outline: 1px solid var(--t-acento);
+  outline-offset: -8px;
+  border-radius: 4px;
+}
+.box-place,
+.box-place-salon {
+  background: linear-gradient(160deg, #f6fbef, #fdf6dc);
+}
+
+.confirmar {
+  background: var(--t-boton);
+  border-color: var(--t-acento);
+}
+.confirmar a {
+  color: var(--t-boton-texto);
+}
+
+/* Estrella Evangeline brillando sobre el sello */
+.wax-seal {
+  cursor: pointer;
+  animation: estrella 2.4s ease-in-out infinite;
+}
+@keyframes estrella {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 2px rgba(255, 240, 150, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(255, 240, 150, 1));
+  }
+}
+.calendario-titulo::after {
+  content: " ✦";
+  color: var(--t-acento);
+  animation: parpadeo 2s ease-in-out infinite;
+}
+@keyframes parpadeo {
+  50% {
+    opacity: 0.2;
+  }
+}
