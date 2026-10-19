@@ -1,0 +1,300 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitacion Arianny Aishlyn</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+  </head>
+
+  <body class="center" translate="no">
+    <!-- SOBRE DE BIENVENIDA -->
+    <div class="envelope-screen" id="envelopeScreen">
+      <div class="envelope">
+        <div class="envelope-flap"></div>
+
+        <!-- Flap inferior -->
+        <div class="wax-seal" id="openEnvelope"></div>
+      </div>
+    </div>
+
+    <div class="invitation-content hidden" id="invitationContent">
+      <!-- TODO tu contenido actual -->
+
+      <div class="content">
+        <section class="section-home">
+          <div class="home-content">
+            <img class="home-img" alt="photo" src="./assets/img/fondoS.jpg" />
+            <div class="titulo">
+              <h1>Mis XV</h1>
+              <h2>Arianny Aishlyn</h2>
+            </div>
+          </div>
+        </section>
+
+        <section class="musica">
+          <div class="music-card">
+            <img class="rapunzel" src="./assets/img/tiana.png" alt="" />
+
+            <!-- <div class="album-art"></div> -->
+            <div class="song-title">Ma Belle Evangeline</div>
+            <div class="artist-name"></div>
+
+            <button class="play-button" id="playPauseBtn">▶</button>
+
+            <div class="progress-container">
+              <div class="progress" id="progressBar"></div>
+            </div>
+
+            <audio
+              id="audioPlayer"
+              src="./assets/music/Ma Belle Evangeline - Letra Latino.mp3"
+            ></audio>
+            <!-- Cambia por tu archivo mp3 -->
+          </div>
+        </section>
+
+        <div class="img-separador">
+          <img class="foto1" src="./assets/img/10o (2).jpeg" alt="separador" />
+        </div>
+
+        <div class="palabras">
+          <p>
+            Te damos gracias señor por el don de la vida, porque hace quince
+            años nos bendeciste con una linda niña que hoy vemos convertirse en
+            una hermosa señorita: <b>Proverbios 4:23</b> <br />
+            Protege tu corazón con sabiduría y brilla con ese resplandor que
+            tienes hermosa princesa.
+          </p>
+          <small>Atte tus papás</small>
+        </div>
+
+        <div class="img-separador">
+          <img class="foto1" src="./assets/img/10o (3).jpeg" alt="separador" />
+        </div>
+
+        <section class="section-info">
+          <div class="overlay-section-info">
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="box-info">
+            <div class="info-primary">
+              <div class="sociedad">
+                <img style="width: 150px" src="./assets/img/sapo.png" alt="" />
+                <h1>El Baile Real</h1>
+                <h2 class="sub">Una Noche Inolvidable</h2>
+              </div>
+
+              <p>
+                APRECIABLES FAMILIARES Y AMIGOS <br />
+                CON GRAN ALEGRÍA Y EL CORAZÓN LLENO DE ILUSIÓN DESEAMOS
+                COMPARTIR CON USTEDES UNA NOCHE MÁGICA
+              </p>
+            </div>
+
+            <div class="padres">
+              <ul>
+                <li>Crystal Ordaz Hernández y</li>
+                <li>Sergio Rendón Galván</li>
+              </ul>
+            </div>
+
+            <div class="frase-p">
+              <p>
+                tienen el honor de invitarles a formar parte de una velada
+                encantada, donde celebraremos la llegada de un nuevo capítulo
+                lleno de sueños, luz y momentos inolvidables junto a nuestros
+                seres más queridos.
+              </p>
+            </div>
+
+            <div class="frase-l">
+              <h1>
+                Con motivo de los XV años <br />
+                de su amada hija
+              </h1>
+            </div>
+
+            <div class="nombre">
+              <h2>Arianny Aishlyn</h2>
+              <h3>Rendon Ordaz</h3>
+            </div>
+
+            <div class="padrinos">
+              <p>Acompañada por sus madrinas</p>
+              <h2>
+                Susana Rendón Galván y <br />
+                Dania Ortiz Ramos
+              </h2>
+            </div>
+
+            <div class="fecha" translate="no">
+              <p>
+                tendrán el placer de recibirles en una noche de ensueño el día
+              </p>
+            </div>
+
+            <div class="date-box">
+              <h2 class="dia">SÁBADO</h2>
+              <h1>10/10/2026</h1>
+              <h2 class="hora">a las 16:00 hrs</h2>
+            </div>
+          </div>
+        </section>
+
+        <div class="timer">
+          <h1 class="timer-titulo">Solo faltan:</h1>
+          <ul class="date-time">
+            <li>
+              <div class="time_number" id="dias"></div>
+              <div class="time_txt">Días</div>
+            </li>
+            <li>
+              <div class="time_number" id="horas"></div>
+              <div class="time_txt">Horas</div>
+            </li>
+            <li>
+              <div class="time_number" id="minutos"></div>
+              <div class="time_txt">Minutos</div>
+            </li>
+            <li>
+              <div class="time_number" id="segundos"></div>
+              <div class="time_txt">Segundos</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="img-separador">
+          <img src="./assets/img/10o (5).jpeg" alt="separador" />
+        </div>
+
+        <div class="img-separador">
+          <img src="./assets/img/10o (6).jpeg" alt="separador" />
+        </div>
+
+        <section class="section-place">
+          <div class="box-place">
+            <div class="place-info center">
+              <img
+                width="75"
+                src="./assets/icons/church.svg"
+                alt="church"
+                fill="#000000"
+              />
+              <div class="place-txt">
+                <h2>Ceremonia</h2>
+                <p>
+                  <b>16:00 hrs</b> Parroquia de nuestra señora del refugio
+                  <br />
+                  Calle Pte. 15 Manzana 033, San Miguel Xico, 56613 Valle de
+                  Chalco Solidaridad, Méx.
+                </p>
+              </div>
+            </div>
+            <a
+              class="place-btn"
+              href="#"
+              target="_blank"
+            >
+              VER UBICACIÓN
+            </a>
+          </div>
+        </section>
+
+        <section class="section-place-salon">
+          <div class="box-place-salon">
+            <div class="place-info center">
+              <img width="120" src="./assets/icons/bola.png" alt="disco" />
+              <div class="place-txt fiesta">
+                <h2>Recepción</h2>
+                <p>
+                  <b>Terminando la ceremonia</b> Poniente 22 mnz 40 lt 29 san
+                  Miguel xico 3 sección
+                </p>
+              </div>
+            </div>
+            <a
+              class="place-btn"
+              href="#"
+              target="_blank"
+            >
+              VER UBICACIÓN
+            </a>
+          </div>
+        </section>
+
+        <div class="img-separador">
+          <img src="./assets/img/10o (7).jpeg" alt="separador" />
+        </div>
+
+        <section class="section-galeria">
+          <section class="section-info-adicional">
+            <div class="info-block info-clothes">
+              <img height="70" src="./assets/icons/Clothes.svg" alt="clothes" />
+              <h2>Vestimenta</h2>
+              <p>
+                Se invita a vestir con elegancia para la ocasión. El color verde
+                o parecidos han sido reservados para la quinceañera.
+              </p>
+            </div>
+
+            <div class="info-separator">
+              <img
+                width="200"
+                src="./assets/img/separador.png"
+                alt="separator"
+              />
+            </div>
+
+            <div class="info-block info-envelope">
+              <img
+                width="70"
+                src="./assets/icons/envelope.svg"
+                alt="envelope"
+              />
+              <h2>Mesa de regalos</h2>
+              <p>
+                La presencia de nuestros distinguidos invitados es el mayor
+                honor. Si desean ofrecer un presente, será recibido con aprecio.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <section class="section-message">
+          <div class="box-message">
+            <p>
+              Los mejores momentos de la vida <br />
+              merecen ser compartidos
+            </p>
+            <b>¡Gracias por acompañarnos!</b>
+            <button class="confirmar">
+              <a href="#" target="_blank">
+                Confirmar asistencia
+              </a>
+            </button>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-mirai">
+          <span>Diseñado por <b>Mirai</b>.</span>
+          <p>Si esta invitación te inspiró, tenemos algo especial para ti.</p>
+          <a
+            class="footer-mirai-link"
+            href="https://www.facebook.com/profile.php?id=61568997140138"
+            target="_blank"
+          >
+            CLICK AQUI PARA MÁS INFORMACIÓN
+          </a>
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
