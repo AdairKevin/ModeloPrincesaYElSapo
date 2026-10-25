@@ -1,0 +1,180 @@
+{
+  "_instrucciones": "Aquí se cambian TODOS los textos, fotos, links y datos de la invitación. Para ocultar una sección pon su clave en false (ejemplo: \"instagram\": false) o agrega \"mostrar\": false dentro de ella para conservar sus textos. Los textos aceptan <br /> para saltos de línea. La fecha de evento.inicio la usan la cuenta regresiva y el calendario.",
+  "pagina": {
+    "titulo": "Invitacion Arianny Aishlyn"
+  },
+  "evento": {
+    "inicio": "2026-10-10T16:00",
+    "duracionHoras": 6,
+    "tituloCalendario": "XV años de Arianny Aishlyn",
+    "lugarCalendario": "Lugar del evento"
+  },
+  "sobre": {
+    "tooltip": "Da click",
+    "carta": "Estás invitado",
+    "cartaNombre": "Arianny Aishlyn"
+  },
+  "portada": {
+    "foto": "./assets/img/fondoS.jpg",
+    "fotoAlt": "photo",
+    "titulo": "Mis XV",
+    "nombre": "Arianny Aishlyn"
+  },
+  "musica": {
+    "imagen": "./assets/img/tiana.png",
+    "cancion": "Ma Belle Evangeline",
+    "artista": "",
+    "archivo": "./assets/music/Ma Belle Evangeline - Letra Latino.mp3",
+    "botonFlotanteAria": "Pausar o reproducir música"
+  },
+  "separadores": {
+    "despuesMusica": [
+      "./assets/img/xv1.jpg"
+    ],
+    "despuesDedicatoria": [
+      "./assets/img/xv2.jpg"
+    ],
+    "despuesCuentaRegresiva": [
+      "./assets/img/xv3.jpg",
+      "./assets/img/xv4.jpg"
+    ],
+    "despuesInstagram": [
+      "./assets/img/xv5.jpg"
+    ]
+  },
+  "dedicatoria": {
+    "texto": "Te damos gracias señor por el don de la vida, porque hace quince años nos bendeciste con una linda niña que hoy vemos convertirse en una hermosa señorita: <b>Proverbios 4:23</b> <br />Protege tu corazón con sabiduría y brilla con ese resplandor que tienes hermosa princesa.",
+    "firma": "Atte tus papás"
+  },
+  "invitacion": {
+    "encabezado": {
+      "imagen": "./assets/img/sapo.png",
+      "anchoImagen": "150px",
+      "titulo": "El Baile Real",
+      "subtitulo": "Una Noche Inolvidable"
+    },
+    "saludo": "APRECIABLES FAMILIARES Y AMIGOS <br />CON GRAN ALEGRÍA Y EL CORAZÓN LLENO DE ILUSIÓN DESEAMOS COMPARTIR CON USTEDES UNA NOCHE MÁGICA",
+    "padres": [
+      "Crystal Ordaz Hernández y",
+      "Sergio Rendón Galván"
+    ],
+    "frase": "tienen el honor de invitarles a formar parte de una velada encantada, donde celebraremos la llegada de un nuevo capítulo lleno de sueños, luz y momentos inolvidables junto a nuestros seres más queridos.",
+    "fraseTitulo": "Con motivo de los XV años <br />de su amada hija",
+    "nombre": "Arianny Aishlyn",
+    "apellidos": "Rendon Ordaz",
+    "padrinos": [
+      {
+        "titulo": "Acompañada por sus madrinas",
+        "nombres": [
+          "Susana Rendón Galván y <br />Dania Ortiz Ramos"
+        ]
+      }
+    ],
+    "fechaTexto": "tendrán el placer de recibirles en una noche de ensueño el día",
+    "fecha": {
+      "dia": "SÁBADO",
+      "fecha": "10/10/2026",
+      "hora": "a las 16:00 hrs"
+    }
+  },
+  "calendario": {
+    "titulo": "Reserva la fecha",
+    "botonGoogle": "Google Calendar",
+    "botonIcs": "Apple / Outlook"
+  },
+  "cuentaRegresiva": {
+    "titulo": "Solo faltan:",
+    "dias": "Días",
+    "horas": "Horas",
+    "minutos": "Minutos",
+    "segundos": "Segundos"
+  },
+  "ubicaciones": {
+    "ceremonia": {
+      "titulo": "Ceremonia",
+      "hora": "16:00 hrs",
+      "lugar": "Parroquia de nuestra señora del refugio <br />Calle Pte. 15 Manzana 033, San Miguel Xico, 56613 Valle de Chalco Solidaridad, Méx.",
+      "mapa": "#",
+      "boton": "VER UBICACIÓN"
+    },
+    "recepcion": {
+      "titulo": "Recepción",
+      "hora": "Terminando la ceremonia",
+      "lugar": "Poniente 22 mnz 40 lt 29 san Miguel xico 3 sección",
+      "mapa": "#",
+      "boton": "VER UBICACIÓN"
+    }
+  },
+  "cronograma": {
+    "titulo": "Cronograma",
+    "actividades": [
+      {
+        "hora": "16:00",
+        "actividad": "Ceremonia"
+      },
+      {
+        "hora": "17:30",
+        "actividad": "Recepción"
+      },
+      {
+        "hora": "18:30",
+        "actividad": "Cena"
+      },
+      {
+        "hora": "20:00",
+        "actividad": "Vals"
+      },
+      {
+        "hora": "20:30",
+        "actividad": "Baile"
+      },
+      {
+        "hora": "22:30",
+        "actividad": "Pastel"
+      }
+    ]
+  },
+  "instagram": {
+    "titulo": "Captura el momento",
+    "texto": "Esta noche en el bayou merece quedarse para siempre. Comparte tus fotos y etiqueta a la princesa del Baile Real.",
+    "usuario": "@usuario",
+    "hashtag": "#MisXV",
+    "link": "#",
+    "boton": "Etiquetar en Instagram"
+  },
+  "vestimenta": {
+    "titulo": "Vestimenta",
+    "texto": "Se invita a vestir con elegancia para la ocasión. El color verde o parecidos han sido reservados para la quinceañera."
+  },
+  "regalos": {
+    "titulo": "Mesa de regalos",
+    "texto": "La presencia de nuestros distinguidos invitados es el mayor honor. Si desean ofrecer un presente, será recibido con aprecio."
+  },
+  "confirmacion": {
+    "frase": "Los mejores momentos de la vida <br />merecen ser compartidos",
+    "destacado": "¡Gracias por acompañarnos!",
+    "titulo": "Confirma tu asistencia",
+    "campoNombre": "Nombre completo",
+    "opcionSi": "Sí asistiré",
+    "opcionNo": "No podré ir",
+    "campoAsistentes": "Número de asistentes",
+    "campoMensaje": "Mensaje para la festejada (opcional)",
+    "boton": "Enviar por WhatsApp",
+    "gracias": "¡Gracias por tu respuesta!",
+    "whatsapp": "",
+    "mensajeWhatsapp": {
+      "saludo": "¡Hola! Soy",
+      "asiste": "Confirmo mi asistencia a XV años de Arianny Aishlyn ✨",
+      "asistentes": "Número de asistentes",
+      "noAsiste": "Lamentablemente no podré asistir a XV años de Arianny Aishlyn.",
+      "mensaje": "Mensaje"
+    }
+  },
+  "footer": {
+    "texto": "Diseñado por",
+    "marca": "Mirai",
+    "promo": "Si esta invitación te inspiró, tenemos algo especial para ti.",
+    "boton": "CLICK AQUI PARA MÁS INFORMACIÓN",
+    "link": "https://www.facebook.com/profile.php?id=61568997140138"
+  }
+}
